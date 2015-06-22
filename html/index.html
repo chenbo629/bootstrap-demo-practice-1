@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/bootstrap-theme.css">
     <link rel="stylesheet" href="../css/navbar-fixed-top.css">
+    <link rel="stylesheet" href="../css/menu-vertical.css">
     <!-- End of CSS link-->
 
     <!-- Javascript link -->
@@ -53,17 +54,24 @@
             <div>
                 <ul class="nav nav-pills nav-stacked">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Menu 1</a>
-                        <ul class="nav nav-pills nav-stacked">
-                            <li><a href="#">Sub Menu 11</a></li>
-                            <li><a href="#">Sub Menu 12</a></li>
-                            <li><a href="#">Sub Menu 13</a></li>
+                    <li data-toggle="collapse" data-target="#subMenu1" class="collapse"><a href="#">Menu 01</a>
+                        <ul class="nav nav-pills nav-stacked collapse" id="subMenu1">
+                            <li><a href="#">Sub Menu 0101</a></li>
+                            <li><a href="#">Sub Menu 0102</a></li>
+                            <li data-toggle="collapse" data-target="#menuItemGroup0103" class="collapse"><a href="#">Sub
+                                Menu 0103</a>
+                                <ul class="nav nav-pills nav-stacked collapse" id="menuItemGroup0103">
+                                    <li><a href="#">Menu Item 010301</a></li>
+                                    <li><a href="#">Menu Item 010302</a></li>
+                                    <li><a href="#">Menu Item 010303</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
-                    <li><a href="#">Menu 2</a></li>
-                    <li><a href="#">Menu 3</a></li>
-                    <li><a href="#">Menu 4</a></li>
-                    <li><a href="#">Menu 5</a></li>
+                    <li><a href="#">Menu 02</a></li>
+                    <li><a href="#">Menu 03</a></li>
+                    <li><a href="#">Menu 04</a></li>
+                    <li><a href="#">Menu 05</a></li>
                 </ul>
             </div>
 
